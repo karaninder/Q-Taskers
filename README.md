@@ -1,2 +1,2 @@
 # Q-Taskers
-Online Platform for household logistics and service providers.
+|University Project| Online Platform for household logistics and service providers.
