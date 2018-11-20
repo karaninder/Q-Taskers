@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#0aea3a"
+        tools:context=".Login"
+        tools:ignore="ExtraText">
+
+
+        <EditText
+            android:id="@+id/Service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="66dp"
+            android:drawableLeft="@drawable/ic_action_service"
+            android:ems="10"
+            android:hint="Service"
+            android:inputType="text"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/Address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="160dp"
+            android:drawableLeft="@drawable/ic_action_pincode"
+            android:ems="10"
+            android:hint="Address"
+            android:inputType="text"
+            android:textSize="16dp" />
+
+
+        <EditText
+            android:id="@+id/PN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="170dp"
+            android:drawableLeft="@drawable/ic_action_phnumber"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:inputType="number"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/PinCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/ic_action_address"
+            android:ems="10"
+            android:hint="Pincode"
+            android:inputType="number"
+            android:textSize="16dp" />
+
+
+        <Button
+            android:id="@+id/ptp_btn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="91dp"
+            android:background="#f8ff33"
+            android:onClick="onClick"
+            android:text="Proceed to Payment" />
+    </RelativeLayout>
+</RelativeLayout>
